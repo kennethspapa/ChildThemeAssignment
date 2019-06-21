@@ -1,18 +1,23 @@
 /*
 Theme Name: Kenneth Papa's Portfolio
-Description: Child theme based on Twenty Sixteen
+Description: Child theme based on Twenty Sixteen. Displays art paintings coming from Japan and China.
 Author: Kenneth S. Papa
 Version: 1.0
 Template: twentysixteen
 */
 
 @import url('../twentysixteen/style.css');
-@import url('https://fonts.googleapis.com/css?family=Encode+Sans+Expanded|Lato|Shadows+Into+Light&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Knewave|Roboto&display=swap');
 
-/*font-family: 'Lato', sans-serif;
-font-family: 'Encode Sans Expanded', sans-serif;
-font-family: 'Shadows Into Light', cursive;*/
+/*font-family: 'Knewave', cursive;
+font-family: 'Roboto', sans-serif;*/
 
-/*body{
+/*.entry-title {
+    font-family: 'Knewave', cursive;
+	}/
+body, button, input, select, textarea {
+    font-family: 'Roboto', sans-serif;*/
+
+body{
 	color:#B0B!important;
-}*/
+}
