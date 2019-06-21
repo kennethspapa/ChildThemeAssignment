@@ -12,12 +12,16 @@ Template: twentysixteen
 /*font-family: 'Knewave', cursive;
 font-family: 'Roboto', sans-serif;*/
 
-/*.entry-title {
+.entry-title {
     font-family: 'Knewave', cursive;
-	}/
-body, button, input, select, textarea {
-    font-family: 'Roboto', sans-serif;*/
+    color:#800000;
+    background-color:#ffcc66;
+	}
 
-body{
-	color:#B0B!important;
+body, button, input, select, textarea {
+    font-family: 'Roboto', sans-serif;
 }
+
+/*body{
+	color:#B0B!important;
+}*/
