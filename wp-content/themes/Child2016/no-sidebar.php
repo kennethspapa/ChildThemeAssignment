@@ -1,8 +1,10 @@
 <?php
 /**
- * The template for displaying pages
+ * The template for displaying pages with no side-bar
  *
- * This is the template that displays the home page by default.
+ * Template name: no-sidebar.php
+ *
+ This is the template that displarys all pages by default.
  * Please note that this is the WordPress construct of pages and that
  * other "pages" on your WordPress site will use a different template.
  *
@@ -21,7 +23,7 @@ get_header(); ?>
 			the_post();
 
 			// Include the page content template.
-			get_template_part( 'template-parts/content', 'homepage' );
+			get_template_part( 'template-parts/content', 'page' );
 
 			// If comments are open or we have at least one comment, load up the comment template.
 			if ( comments_open() || get_comments_number() ) {
@@ -38,5 +40,5 @@ get_header(); ?>
 
 </div><!-- .content-area -->
 
-<?php// get_sidebar(); ?> <!--commented out sidebar>
+<?php //get_sidebar(); ?> <!--this is to comment-->
 <?php get_footer(); ?>
