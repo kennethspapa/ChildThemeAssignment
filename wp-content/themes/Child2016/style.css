@@ -14,13 +14,22 @@ font-family: 'Roboto', sans-serif;*/
 
 .entry-title {
     font-family: 'Knewave', cursive;
-    color:#800000;
-    background-color:#ffcc66;
+    color:#3a2d27;
 	}
 
 body, button, input, select, textarea {
     font-family: 'Roboto', sans-serif;
+    background-color:#e56532;
 }
+
+.site-content,.site-header, .site{
+	background-color:#e56532;
+}
+
+a:hover { 
+  background-color: #ff9933;
+}
+
 
 /*body{
 	color:#B0B!important;
